@@ -70,14 +70,14 @@ a {
 }
 
 .text-xl {
-  font-size: 1.5rem;
+  font-size: 1.375rem;
 }
 
 .text-lg {
   font-size: 1.125rem;
 }
 
-.text-lg {
+.text-sm {
   font-size: 0.875rem;
 }
 

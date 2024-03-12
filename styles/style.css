@@ -53,9 +53,7 @@
 .hero-section .intro-copy {
   font-size: clamp(1.25rem, 2.5vw, 24px);
   font-weight: 600;
- 
 }
-
 
 /* Main Content Section */
 .copy-block-copy {
@@ -183,7 +181,6 @@ picture.sensors img {
 .cta .typography-headline {
   font-weight: bold;
   font-size: clamp(3.25rem, 5vw, 5rem);
-  max-width: 20ch;
   margin: 0 auto;
   line-height: 1;
   margin: 2.5rem 0;
@@ -207,7 +204,7 @@ footer .footer-legal {
   border-top: 1px solid var(--fill-gray-quaternary);
 }
 
-footer ol{
+footer ol {
   margin: 1.25rem 0;
   padding-left: 1rem;
 }
