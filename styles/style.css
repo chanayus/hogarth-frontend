@@ -195,6 +195,7 @@ picture.sensors img {
 
 .cta .button-cta {
   margin: 3.75rem auto;
+  width: fit-content;
 }
 
 /* Footer */
