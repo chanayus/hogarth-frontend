@@ -75,11 +75,11 @@
 }
 
 .telescopes-copy > div {
-  flex: 1 1 30rem;
+  flex: 1 1 41rem;
 }
 
 .hero-bgimage-wrapper {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 .badge-container {
@@ -114,7 +114,7 @@
 }
 
 .hires-imaging .copy-block-feature {
-  flex: 1 1 30rem;
+  flex: 1 1 27.5rem;
 }
 
 .hires-imaging .picture-container {
@@ -142,7 +142,7 @@ picture.sensors img {
 }
 
 .networks .copy-block-feature {
-  flex: 1 1 30rem;
+  flex: 1 1 27.5rem;
 }
 
 /* Navigation Section */
@@ -190,7 +190,7 @@ picture.sensors img {
   font-size: clamp(3.25rem, 5vw, 5rem);
   margin: 0 auto;
   line-height: 1;
-  margin: 2.5rem 0;
+  margin: 1.5rem 0 2.5rem 0;
 }
 
 .cta .button-cta {
