@@ -9,12 +9,6 @@
   column-gap: 2rem;
 }
 
-@media (max-width: 734px) {
-  #site-header ul {
-    display: none;
-  }
-}
-
 #mobile-nav-button {
   display: none;
 }
@@ -22,6 +16,9 @@
 @media (max-width: 734px) {
   #mobile-nav-button {
     display: block;
+  }
+  #site-header ul {
+    display: none;
   }
 }
 
