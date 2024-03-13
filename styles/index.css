@@ -203,10 +203,6 @@ picture.sensors img {
   margin-bottom: 5rem;
 }
 
-.navigation .picture-container {
-  width: 100%;
-}
-
 /* กำหนดให้ส่วน text navigation section อยู่ในตำแหน่งล้างซ้าย โดยอ้างอิงตำแหน่งจาก .navigation  */
 .navigation .copy-block-feature {
   position: absolute;
