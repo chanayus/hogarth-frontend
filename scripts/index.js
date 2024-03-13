@@ -3,7 +3,7 @@ const mobileNav = document.querySelector("#mobile-nav");
 
 //   เปิด/ปิด mobile navigation menu
 mobileNavToggleButton?.addEventListener("click", () => {
-  const isNavHidden = mobileNav.classList.contains("hidden") || mobileNav.classList.contains("animate-out");
+  const isNavHidden = mobileNav.classList.contains("hidden");
 
   //   เช็กว่า mobile navigation menu ปิดอยู่หรือไม่
   if (isNavHidden) {
