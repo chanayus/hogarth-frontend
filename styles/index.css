@@ -170,7 +170,8 @@
 }
 
 .hires-imaging .picture-container {
-  max-width: 25rem;
+  max-width: 30rem;
+  flex: 1 1 25rem;
 }
 
 picture.sensors img {
@@ -190,7 +191,8 @@ picture.sensors img {
 }
 
 .networks .picture-container {
-  max-width: 25rem;
+  max-width: 30rem;
+  flex: 1 1 25rem;
 }
 
 /* กำหนดให้ขนาดความกว้างขั้นต่ำของ text ในส่วน networks section เท่ากับ 21rem เมื่อค่าต่ำกว่าที่กำหนด flex container จะทำการ wrap  */
