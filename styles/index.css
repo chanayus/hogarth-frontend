@@ -70,6 +70,7 @@
   height: clamp(37.5rem, 7vw, 46.25rem);
   position: relative;
   align-items: center;
+
 }
 
 .hero-section .section-header-image {
@@ -97,10 +98,12 @@
   font-size: clamp(3rem, 7vw, 6rem);
   line-height: 1;
   margin: 1.25rem 0;
+  letter-spacing: -0.125rem;
 }
 .hero-section .intro-copy {
   font-size: clamp(1.25rem, 2.325vw, 1.75rem);
   font-weight: 600;
+  letter-spacing: -0.0313rem;
 }
 
 /* Main Content Section */
@@ -109,6 +112,9 @@
   color: var(--fill-gray-tertiary);
 }
 
+.copy-block-copy .footnote-number a{
+  color: var(--fill-gray-tertiary);
+}
 /* Telescopes Section */
 
 .telescopes-copy {
@@ -233,6 +239,7 @@ picture.sensors img {
   word-wrap: break-word;
   line-height: 1;
   margin: 1.5rem 0 2.5rem 0;
+  letter-spacing: -0.125rem;
 }
 
 .cta .button-cta {
@@ -266,6 +273,7 @@ footer ol {
   margin-bottom: 1.25rem;
   font-weight: 600;
   font-size: 1.5rem;
+  letter-spacing: -0.0219rem;
 }
 
 /* จัดให้รูปอยู่กึ่งกลาง */
