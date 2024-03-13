@@ -13,6 +13,13 @@ html {
   padding: 0 clamp(1.5rem, 5%, 2.25rem);
 }
 
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+  .container {
+    padding: 0 ;
+    max-width: 692px;
+  }
+}
+
 img {
   width: 100%;
 }

@@ -26,7 +26,7 @@
 
 .hero-section {
   width: 100%;
-  height: clamp(37.5rem, 8vw, 46.25rem);
+  height: clamp(37.5rem, 7vw, 46.25rem);
   position: relative;
   align-items: center;
 }
@@ -53,12 +53,12 @@
 }
 
 .hero-section .headline-section {
-  font-size: clamp(3rem, 9.5vw, 6rem);
+  font-size: clamp(3rem, 7vw, 6rem);
   line-height: 1;
   margin: 1.25rem 0;
 }
 .hero-section .intro-copy {
-  font-size: clamp(1.25rem, 2.875vw, 1.75rem);
+  font-size: clamp(1.25rem, 2.325vw, 1.75rem);
   font-weight: 600;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .hires-imaging .copy-block-feature {
-  flex: 1 1 25rem;
+  flex: 1 1 21rem;
 }
 
 .hires-imaging .picture-container {
@@ -143,7 +143,7 @@ picture.sensors img {
 }
 
 .networks .copy-block-feature {
-  flex: 1 1 25rem;
+  flex: 1 1 21rem;
 }
 
 /* Navigation Section */
