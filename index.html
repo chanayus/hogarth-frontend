@@ -15,18 +15,18 @@
   </head>
   <body>
     <header id="site-header" class="row align-items-center">
-      <div class="container row align-items-center justify-content-spacebetween">
-        <h1><a href="#">Stellar</a></h1>
-        <nav>
+      <div class="container row align-items-center justify-content-spacebetween column">
+        <h1 class="column"><a href="#">Stellar</a></h1>
+        <nav class="column">
           <ul class="row align-items-center">
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">News & Discoveries</a></li>
-            <li><a href="#">Mission Updates</a></li>
-            <li><a href="#">Community</a></li>
-            <li><a href="#">Resources</a></li>
+            <li class="column"><a href="#">Explore</a></li>
+            <li class="column"><a href="#">News & Discoveries</a></li>
+            <li class="column"><a href="#">Mission Updates</a></li>
+            <li class="column"><a href="#">Community</a></li>
+            <li class="column"><a href="#">Resources</a></li>
           </ul>
 
-          <button id="mobile-nav-button">
+          <button id="mobile-nav-button" class="column">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M10.6668 9.31067C10.3132 9.31067 9.97407 9.45114 9.72402 9.70119C9.47397 9.95124 9.3335 10.2904 9.3335 10.644C9.3335 10.9976 9.47397 11.3368 9.72402 11.5868C9.97407 11.8369 10.3132 11.9773 10.6668 11.9773H21.3335C21.6871 11.9773 22.0263 11.8369 22.2763 11.5868C22.5264 11.3368 22.6668 10.9976 22.6668 10.644C22.6668 10.2904 22.5264 9.95124 22.2763 9.70119C22.0263 9.45114 21.6871 9.31067 21.3335 9.31067H10.6668ZM9.3335 16C9.3335 15.6464 9.47397 15.3072 9.72402 15.0572C9.97407 14.8071 10.3132 14.6667 10.6668 14.6667H21.3335C21.6871 14.6667 22.0263 14.8071 22.2763 15.0572C22.5264 15.3072 22.6668 15.6464 22.6668 16C22.6668 16.3536 22.5264 16.6928 22.2763 16.9428C22.0263 17.1929 21.6871 17.3333 21.3335 17.3333H10.6668C10.3132 17.3333 9.97407 17.1929 9.72402 16.9428C9.47397 16.6928 9.3335 16.3536 9.3335 16ZM10.6668 20.0227C10.3132 20.0227 9.97407 20.1631 9.72402 20.4132C9.47397 20.6632 9.3335 21.0024 9.3335 21.356C9.3335 21.7096 9.47397 22.0488 9.72402 22.2988C9.97407 22.5489 10.3132 22.6893 10.6668 22.6893H21.3335C21.6871 22.6893 22.0263 22.5489 22.2763 22.2988C22.5264 22.0488 22.6668 21.7096 22.6668 21.356C22.6668 21.0024 22.5264 20.6632 22.2763 20.4132C22.0263 20.1631 21.6871 20.0227 21.3335 20.0227H10.6668Z"
@@ -45,7 +45,7 @@
     </header>
     <main id="main" class="main bg-dark" role="main">
       <section class="section hero-section row">
-        <div class="section-header-image">
+        <div class="section-header-image column">
           <picture id="milky-way" class="milky-way">
             <source srcset="images/hero_small.jpg, images/hero_small_2x.jpg 2x" media="(max-width:734px)" />
             <source srcset="images/hero_medium.jpg, images/hero_medium_2x.jpg 2x" media="(max-width:1068px)" />
@@ -53,7 +53,7 @@
             <img src="images/hero_large.jpg" alt="" />
           </picture>
         </div>
-        <div class="section-content container">
+        <div class="section-content container column">
           <h2 class="eyebrow-section">Reach for the Stars</h2>
           <h3 class="headline-section">Unveil the Cosmic Mysteries.</h3>
           <p class="intro-copy large-10 small-12">
@@ -63,35 +63,35 @@
         </div>
       </section>
       <section class="section section-features container row">
-        <div class="subsection telescopes">
+        <div class="subsection telescopes column">
           <div class="hero-bgimage-wrapper">
             <figure class="hero-bgimage">
               <img src="images/telescopes_large.jpg" alt="" />
             </figure>
           </div>
           <div class="telescopes-copy row">
-            <h3 class="subsection-headline">Space Telescopes</h3>
-            <div>
+            <h3 class="subsection-headline column">Space Telescopes</h3>
+            <div class="column">
               <p class="subsection-copy text-gray-tertiary text-xl">
                 Satellites equipped with powerful telescopes are positioned in space to observe celestial objects without the interference of Earth's atmosphere. They provide unprecedented views of
                 distant galaxies, stars, and cosmic phenomena, contributing to our understanding of the origins of the universe, black holes, exoplanets, and other astronomical phenomena.
               </p>
               <div class="badge-container row">
-                <figure class="badge badge-aperture">
+                <figure class="badge badge-aperture column">
                   <div class="badge-content row">
                     <span class="badge-caption">Aperture Size</span>
                     <span class="badge-value">21.3</span>
                     <span class="badge-unit text-lg">feet</span>
                   </div>
                 </figure>
-                <figure class="badge badge-resolution">
+                <figure class="badge badge-resolution column">
                   <div class="badge-content row">
                     <span class="badge-caption">Resolution</span>
                     <span class="badge-value">0.05</span>
                     <span class="badge-unit text-lg">arcseconds</span>
                   </div>
                 </figure>
-                <figure class="badge badge-orbit">
+                <figure class="badge badge-orbit column">
                   <div class="badge-content row">
                     <span class="badge-caption">Orbit</span>
                     <span class="badge-value">930<span class="badge-unit">k</span></span>
@@ -103,7 +103,7 @@
           </div>
         </div>
         <div class="subsection hires-imaging row align-items-center">
-          <div class="picture-container">
+          <div class="picture-container column">
             <picture id="sensors" class="sensors">
               <source srcset="images/hires-imaging_small.jpg, images/hires-imaging_small_2x.jpg 2x" media="(max-width:734px)" />
               <source srcset="images/hires-imaging_medium.jpg, images/hires-imaging_medium_2x.jpg 2x" media="(max-width:1068px)" />
@@ -111,7 +111,7 @@
               <img src="images/hires-imaging_large.jpg" alt="" />
             </picture>
           </div>
-          <div class="copy-block copy-block-feature">
+          <div class="copy-block copy-block-feature column">
             <h3 class="copy-block-headline typography-copy-block">High-Resolution Imaging</h3>
             <p class="copy-block-copy typography-copy-block text-gray-tertiary">
               Satellite systems equipped with advanced cameras and sensors capture high-resolution images of Earth, revealing intricate details of our planet's surface, weather patterns, and
@@ -120,14 +120,14 @@
           </div>
         </div>
         <div class="subsection networks row align-items-center">
-          <div class="picture-container">
+          <div class="picture-container column">
             <picture id="satellite" class="satellite">
               <source srcset="images/satellite_medium.jpg, images/satellite_medium_2x.jpg 2x" media="(max-width:1068px)" />
               <source srcset="images/satellite_large.jpg, images/satellite_large_2x.jpg 2x" media="(min-width:0px)" />
               <img src="images/satellite_large.jpg" alt="" />
             </picture>
           </div>
-          <div class="copy-block copy-block-feature">
+          <div class="copy-block copy-block-feature column">
             <h3 class="copy-block-headline typography-copy-block">Communication Networks</h3>
             <p class="copy-block-copy typography-copy-block">
               Satellites serve as communication relays, connecting people across the globe. They facilitate global telecommunication, enabling phone calls, internet access, broadcasting, and data
