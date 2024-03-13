@@ -26,7 +26,7 @@
 
 .hero-section {
   width: 100%;
-  height: 80vh;
+  height: clamp(37.5rem, 8vw, 46.25rem);
   position: relative;
   align-items: center;
 }
@@ -53,18 +53,18 @@
 }
 
 .hero-section .headline-section {
-  font-size: clamp(3rem, 5vw, 6rem);
+  font-size: clamp(3rem, 9.5vw, 6rem);
   line-height: 1;
   margin: 1.25rem 0;
 }
 .hero-section .intro-copy {
-  font-size: clamp(1.25rem, 2.5vw, 24px);
+  font-size: clamp(1.25rem, 2.875vw, 1.75rem);
   font-weight: 600;
 }
 
 /* Main Content Section */
 .copy-block-copy {
-  font-size: 1.125rem;
+  font-size: 1.1875rem;
   color: var(--fill-gray-tertiary);
 }
 
@@ -99,6 +99,7 @@
 .badge-content > .badge-caption {
   color: var(--fill-accent);
   font-weight: 600;
+  font-size: 1.3125rem;
 }
 
 /* Hi-res Section */
@@ -114,7 +115,7 @@
 }
 
 .hires-imaging .copy-block-feature {
-  flex: 1 1 27.5rem;
+  flex: 1 1 25rem;
 }
 
 .hires-imaging .picture-container {
@@ -142,7 +143,7 @@ picture.sensors img {
 }
 
 .networks .copy-block-feature {
-  flex: 1 1 27.5rem;
+  flex: 1 1 25rem;
 }
 
 /* Navigation Section */
@@ -222,6 +223,8 @@ footer ol {
 .copy-block-headline,
 .subsection-headline {
   margin-bottom: 1.25rem;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .picture-container {
