@@ -47,18 +47,6 @@
   display: none;
 }
 
-/* เล่น animation เมื่อทำการเปิด mobile navigation menu */
-#mobile-nav.animate-in {
-  animation: mobile-nav-animate-in 0.35s forwards;
-  -webkit-animation: mobile-nav-animate-in 0.35s forwards;
-}
-
-/* เล่น animation เมื่อทำการปิด mobile navigation menu */
-#mobile-nav.animate-out {
-  animation: mobile-nav-animate-out 0.35s forwards;
-  -webkit-animation: mobile-nav-animate-out 0.35s forwards;
-}
-
 .mobile-nav-content {
   background: #fff;
 }
@@ -69,28 +57,6 @@
   padding-bottom: 1.5rem;
   row-gap: 1.5rem;
   width: 100%;
-}
-
-@keyframes mobile-nav-animate-in {
-  0% {
-    opacity: 0;
-    display: block;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes mobile-nav-animate-out {
-  0% {
-    opacity: 1;
-  }
-  99.9% {
-    opacity: 0;
-  }
-  100% {
-    display: none;
-  }
 }
 
 /* Hero Section */

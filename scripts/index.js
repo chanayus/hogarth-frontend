@@ -7,10 +7,8 @@ mobileNavToggleButton?.addEventListener("click", () => {
 
   //   เช็กว่า mobile navigation menu ปิดอยู่หรือไม่
   if (isNavHidden) {
-    mobileNav.classList.add("animate-in");
-    mobileNav.classList.remove("hidden", "animate-out");
+    mobileNav.classList.remove("hidden");
   } else {
-    mobileNav.classList.remove("animate-in");
-    mobileNav.classList.add("animate-out");
+    mobileNav.classList.add("hidden");
   }
 });
