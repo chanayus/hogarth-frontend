@@ -70,7 +70,6 @@
   height: clamp(37.5rem, 7vw, 46.25rem);
   position: relative;
   align-items: center;
-
 }
 
 .hero-section .section-header-image {
@@ -112,7 +111,7 @@
   color: var(--fill-gray-tertiary);
 }
 
-.copy-block-copy .footnote-number a{
+.copy-block-copy .footnote-number a {
   color: var(--fill-gray-tertiary);
 }
 /* Telescopes Section */
@@ -245,6 +244,11 @@ picture.sensors img {
 .cta .button-cta {
   margin: 3.75rem auto;
   width: fit-content;
+}
+
+.cta .copy-block-paragraph,
+.cta .typography-title {
+  letter-spacing: -0.0156rem;
 }
 
 /* Footer */
