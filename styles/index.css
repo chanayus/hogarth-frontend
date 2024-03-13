@@ -29,6 +29,7 @@
 /* ซ้อน mobile navigation เมื่อเปิดในอุปกรณ์ที่ขนาดมากกว่า 735px  */
 @media (min-width: 735px) {
   #mobile-nav {
+    opacity: 0;
     visibility: hidden;
   }
 }
@@ -40,11 +41,13 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.2s, visibility 0.2s;
 }
 
 /* ซ้อน mobile navigation เมื่อเปิดหน้าเว็บครั้งแรก  */
 #mobile-nav.hidden {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
 }
 
 .mobile-nav-content {
