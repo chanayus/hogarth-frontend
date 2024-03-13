@@ -50,11 +50,13 @@
 /* เล่น animation เมื่อทำการเปิด mobile navigation menu */
 #mobile-nav.animate-in {
   animation: mobile-nav-animate-in 0.35s forwards;
+  -webkit-animation: mobile-nav-animate-in 0.35s forwards;
 }
 
 /* เล่น animation เมื่อทำการปิด mobile navigation menu */
 #mobile-nav.animate-out {
   animation: mobile-nav-animate-out 0.35s forwards;
+  -webkit-animation: mobile-nav-animate-out 0.35s forwards;
 }
 
 .mobile-nav-content {
