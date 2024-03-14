@@ -158,18 +158,18 @@
 
 .hires-imaging {
   flex-direction: row-reverse;
-  gap: 3rem;
+  gap: 2rem 2.75rem;
 }
 
-/* กำหนดให้ขนาดความกว้างขั้นต่ำของ text ในส่วน hires section เท่ากับ 21rem เมื่อค่าต่ำกว่าที่กำหนด flex container จะทำการ wrap  */
+/* กำหนดให้ขนาดความกว้างขั้นต่ำของ text ในส่วน hires section เท่ากับ 18.125rem เมื่อค่าต่ำกว่าที่กำหนด flex container จะทำการ wrap  */
 
 .hires-imaging .copy-block-feature {
-  flex: 1 1 21rem;
+  flex: 2 0 18.125rem;
 }
 
 .hires-imaging .picture-container {
-  max-width: 30rem;
-  flex: 1 1 25rem;
+  max-width: 25.5rem;
+  flex: 1 1 21.625rem;
 }
 
 picture.sensors img {
@@ -185,17 +185,17 @@ picture.sensors img {
 /* Communication Networks Section */
 
 .networks {
-  gap: 3rem;
+  gap: 2rem 2.5rem;
 }
 
 .networks .picture-container {
-  max-width: 30rem;
-  flex: 1 1 25rem;
+  max-width: 25.5rem;
+  flex: 1 1 21.625rem;
 }
 
-/* กำหนดให้ขนาดความกว้างขั้นต่ำของ text ในส่วน networks section เท่ากับ 21rem เมื่อค่าต่ำกว่าที่กำหนด flex container จะทำการ wrap  */
+/* กำหนดให้ขนาดความกว้างขั้นต่ำของ text ในส่วน networks section เท่ากับ 18.125rem เมื่อค่าต่ำกว่าที่กำหนด flex container จะทำการ wrap  */
 .networks .copy-block-feature {
-  flex: 1 1 21rem;
+  flex: 2 0 18.125rem;
 }
 
 /* Navigation Section */
