@@ -5,10 +5,6 @@
   outline: none !important;
 }
 
-html {
-  font-size: clamp(14px, 1vw, 16px);
-}
-
 .container {
   max-width: 980px;
   margin: 0 auto;
@@ -79,20 +75,101 @@ main#main {
 
 /* Font Size */
 
+.text-6xl {
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: -0.125rem;
+}
+
+.text-5xl {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: -0.125rem;
+}
+
+.text-4xl {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.text-3xl {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.0313rem;
+}
+
 .text-2xl {
-  font-size: 1.75rem;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.0156rem;
 }
 
 .text-xl {
-  font-size: 1.3125rem;
+  font-size: 21px;
+  font-weight: 400;
 }
 
 .text-lg {
-  font-size: 1.1875rem;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: -0.0219rem;
 }
 
 .text-sm {
-  font-size: 0.875rem;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 1068px) {
+  .text-6xl {
+    font-size: 80px;
+  }
+
+  .text-5xl {
+    font-size: 64px;
+  }
+
+  .text-4xl {
+    font-size: 48px;
+  }
+
+  .text-3xl {
+    font-size: 24px;
+  }
+
+  .text-2xl {
+    font-size: 21px;
+  }
+
+  .text-lg {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 734px) {
+  .text-6xl {
+    font-size: 48px;
+  }
+
+  .text-5xl {
+    font-size: 48px;
+  }
+
+  .text-4xl {
+    font-size: 40px;
+  }
+
+  .text-3xl {
+    font-size: 21px;
+  }
+
+  .text-2xl {
+    font-size: 19px;
+  }
+
+  .text-xl {
+    font-size: 19px;
+  }
 }
 
 /* Font weight */
@@ -129,6 +206,7 @@ a:hover {
   padding: 1rem 2rem;
   border-radius: 9999px;
   font-weight: 600;
+  font-size: 19px;
   color: #fff;
   display: flex;
   justify-content: center;

@@ -67,7 +67,7 @@
 /* clamp(37.5rem, 7vw, 46.25rem) คือการหนดให้มีค่าเท่ากับ 7vw (viewport width) โดยค่าต่ำสุดที่เป็นไปได้คือ 37.5rem และค่าสูงสุดที่เป็นไปได้คือ 46.25rem  */
 .hero-section {
   width: 100%;
-  height: clamp(37.5rem, 7vw, 46.25rem);
+  height: clamp(37.5rem, 7vw, 48rem);
   position: relative;
   align-items: center;
 }
@@ -94,20 +94,12 @@
 }
 
 .hero-section .headline-section {
-  font-size: clamp(3rem, 7vw, 6rem);
   line-height: 1;
-  margin: 1.25rem 0;
-  letter-spacing: -0.125rem;
-}
-.hero-section .intro-copy {
-  font-size: clamp(1.25rem, 2.325vw, 1.75rem);
-  font-weight: 600;
-  letter-spacing: -0.0313rem;
+  margin: 1.25rem 0 1.5rem 0;
 }
 
 /* Main Content Section */
 .copy-block-copy {
-  font-size: 1.1875rem;
   color: var(--fill-gray-tertiary);
 }
 
@@ -116,6 +108,9 @@
 }
 /* Telescopes Section */
 
+.telescopes {
+  padding-top: 5rem;
+}
 .telescopes-copy {
   column-gap: 5rem;
 }
@@ -142,13 +137,16 @@
 
 .badge-content .badge-value {
   font-weight: bold;
-  font-size: clamp(2.5rem, 5vw, 3.75rem);
 }
 
 .badge-content > .badge-caption {
   color: var(--fill-accent);
   font-weight: 600;
-  font-size: 1.3125rem;
+}
+
+.badge-content .badge-unit,
+.badge-content .badge-caption {
+  font-size: 19px;
 }
 
 /* Hi-res Section */
@@ -235,12 +233,9 @@ picture.sensors img {
 }
 
 .cta .typography-headline {
-  font-weight: bold;
-  font-size: clamp(3rem, 5vw, 5rem);
   word-wrap: break-word;
   line-height: 1;
   margin: 1.5rem 0 2.5rem 0;
-  letter-spacing: -0.125rem;
 }
 
 .cta .button-cta {
@@ -248,16 +243,10 @@ picture.sensors img {
   width: fit-content;
 }
 
-.cta .copy-block-paragraph,
-.cta .typography-title {
-  letter-spacing: -0.0156rem;
-}
-
 /* Footer */
 
 footer {
   padding: 2.5rem 0;
-  font-size: 0.875rem;
   background: var(--fill-secondary);
   color: var(--glyph-gray-secondary);
 }
@@ -277,9 +266,6 @@ footer ol {
 .copy-block-headline,
 .subsection-headline {
   margin-bottom: 1.25rem;
-  font-weight: 600;
-  font-size: 1.5rem;
-  letter-spacing: -0.0219rem;
 }
 
 /* จัดให้รูปอยู่กึ่งกลาง */
