@@ -120,8 +120,8 @@
   column-gap: 5rem;
 }
 
-/* กำหนดให้ขนาดความกว้างขั้นต่ำของ text desc ในส่วน telescopes section เท่ากับ 41rem เมื่อค่าต่ำกว่าที่กำหนด flex container จะทำการ wrap  */
-/* flex: 1 1 41; มีค่าเท่ากับ flex-grow: 1; flex-shrink: 1; แล้ว flex-basis: 41rem; */
+/* กำหนดให้ขนาดความกว้างขั้นต่ำของ text desc ในส่วน telescopes section เท่ากับ 32rem เมื่อค่าต่ำกว่าที่กำหนด flex container จะทำการ wrap  */
+/* flex: 1 1 32; มีค่าเท่ากับ flex-grow: 1; flex-shrink: 1; flex-basis: 32rem; */
 
 .telescopes-copy > div {
   flex: 1 1 32rem;
